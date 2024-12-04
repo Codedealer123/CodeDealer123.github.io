@@ -1,0 +1,27 @@
+{
+    "name": "UGameINC.",
+    "theme_color": "#3a3b3c",
+    "background_color": "#3a3b3c",
+    "short_name": "UGame",
+    "id": "UGameINC#8943",
+    "description": "The place for people.",
+    "dir": "ltr",
+    "orientation": "landscape",
+    "display_override": [
+      "fullscreen",
+      "window-controls-overlay"
+    ],
+    "categories": [
+      "entertainment",
+      "games",
+      "kids",
+      "utilities"
+    ],
+    "shortcuts": [
+      {
+        "name": "CallMan",
+        "url": "https://codedealer123.github.io/CallMan",
+        "description": "Call People"
+      }
+    ]
+  }
