@@ -3,6 +3,7 @@
     "theme_color": "#3a3b3c",
     "background_color": "#3a3b3c",
     "start_url": "codedealer123.github.io/",
+    "scope": "codedealer123.github.io",
     "short_name": "UGame",
     "id": "UGameINC#8943",
     "display": "landscape",
