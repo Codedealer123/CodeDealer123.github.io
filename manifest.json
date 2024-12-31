@@ -1,0 +1,51 @@
+{
+    "id": "GameV6",
+    "dir": "ltr",
+    "lang": "en",
+    "name": "GameVHub",
+    "scope": "codedealer123.github.io",
+    "display": "fullscreen",
+    "start_url": "codedealer123.github.io",
+    "short_name": "GameHub",
+    "theme_color": "#FFFFFF",
+    "description": "A Game Hub that includes all the games of GameV6 and more!",
+    "orientation": "landscape-primary",
+    "background_color": "#ffffff",
+    "prefer_related_applications": false,
+    "display_override": [
+      "window-controls-overlay",
+      "fullscreen"
+    ],
+    "icons": [
+      {
+        "src": "/icons/512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icons/192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "launch_handler": {
+      "client_mode": "navigate-existing"
+    },
+    "edge_side_panel": {},
+    "shortcuts": [
+      {
+        "name": "CallMan",
+        "url": "https://codedealer123.github.io/CallMan/",
+        "description": "A place where you can call people!"
+      }
+    ],
+    "categories": [
+      "entertainment",
+      "games",
+      "kids",
+      "social",
+      "utilities"
+    ]
+  }
