@@ -3,3 +3,6 @@ body {
     text-align: center;
     align-content: center;
 }
+div {
+    background-color: rgb(5, 0, 52);
+}
