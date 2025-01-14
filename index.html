@@ -23,5 +23,18 @@
         <h1>Hello!</h1>
         <button title="Legend Of Zelda: Orcale of Ages"><a href="/games/Zelda/LegendOfZelda.html">Zelda</a></button>
         <button title="A copy of Minecraft"><a href="/games/Eaglercraft/index.html">Eaglercraft</a></button>
+        <button onclick="openGame()">Open Game</button>
+        <script>
+            function openGame() {
+                var win = window.open()
+                var url = "codedealer123.github.io/games/Eaglercraft/index.html"
+                var iframe = win.document.createElement('iframe')
+                iframe.style.width = "100%";
+                iframe.style.height = "100%";
+                iframe.style.border = "none";
+                iframe.src = url
+                win.document.body.appendChild(iframe)
+            }
+        </script>
     </body>
 </html>
