@@ -8,10 +8,19 @@
             }
           </script>
           <link rel="manifest" href="manifest.json">
+          <script src="/assets/Jquery/jquery.js"></script>
+          <script src="/assets/Jquery/UI/jquery-ui.min.js"></script>
+          <link type="stylesheet" href="/assets/Jquery/UI/jquery-ui.min.css">
+          <link type="stylesheet" href="/assets/CSS/a.css">
+          <script>
+            $( function() {
+              $( document ).tooltip();
+            } );
+            </script>
     </head>
     <body>
         <h1>Hello!</h1>
-        <button><a href="/games/Zelda/LegendOfZelda.html">Zelda</a></button>
-        <button><a href="/games/Eaglercraft/index.html">Eaglercraft</a></button>
+        <button><a title="Legend Of Zelda: Orcale of Ages" href="/games/Zelda/LegendOfZelda.html">Zelda</a></button>
+        <button><a title="A copy of Minecraft" href="/games/Eaglercraft/index.html">Eaglercraft</a></button>
     </body>
 </html>
