@@ -15,6 +15,12 @@ div {
     font-weight: 400;
     font-style: normal;
 }
-body {
+h1 {
     font-family: "gaegu-regular", sans-serif;
   }
+button {
+    font-family: "gaegu-regular";
+}
+p {
+    font-family: "gaegu-regular";
+}
