@@ -7,9 +7,6 @@ body {
     text-align: center;
     align-content: center;
 }
-div {
-    background-color: rgb(5, 0, 52);
-}
 .gaegu-regular {
     font-family: "Gaegu", serif;
     font-weight: 400;
