@@ -1,0 +1,11 @@
+{
+  "name": "codedealer123.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Building SPA...' && mkdir -p dist && cp -r * dist && echo 'Build complete!'"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "spa-github-pages": "^1.0.0"
+  }
+}
