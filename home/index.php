@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KNPJH2D3');</script>
+  <!-- End Google Tag Manager -->
+  <?php
+  if(!isset($_SERVER['POST']['redirected'])){
+    header('Location:https://codedealer123.github.io');
+    die();
+  }
+?>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6839ecda7c.js" crossorigin="anonymous"></script>
+        <title>GameVHub</title>
+        <script>
+            if (typeof navigator.serviceWorker !== 'undefined') {
+              navigator.serviceWorker.register('sw.js')
+            }
+          </script>
+          <link rel="manifest" href="manifest.json">
+          <script src="/assets/Jquery/jquery.js"></script>
+          <script src="/assets/Jquery/UI/jquery-ui.min.js"></script>
+          <link rel="stylesheet" href="/assets/Jquery/UI/jquery-ui.min.css">
+          <link rel="stylesheet" href="/assets/CSS/style.css">
+          <link rel="stylesheet" href="/assets/CSS/button.css">
+          <script src="/assets/JS/jquerycode.js"></script>
+    </head>
+    <body style="background-color: rgb(3, 0, 29); text-align: center;">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNPJH2D3"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <h1>Hello!</h1>
+        <button title="Legend Of Zelda games"><a href="/games/Zelda/">Legend of Zelda</a></button>
+        <button title="A copy of Minecraft"><a href="/games/Eaglercraft/">Eaglercraft</a></button>
+        <button title="Call People"><a href="/games/CallMan/">CallMan</a></button>
+        <p>Font Test<i class="fa-solid fa-user"></i></p>
+    </body>
+</html>
